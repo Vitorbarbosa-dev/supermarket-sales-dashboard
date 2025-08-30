@@ -1,0 +1,50 @@
+/* Fundo gradiente responsivo */
+.stApp {
+    background: linear-gradient(135deg, #0f0f0f, #4b0082);
+    background-size: cover;
+    background-attachment: scroll; /* Evita bug no mobile */
+}
+
+/* Container principal */
+.block-container {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+    color: #ffffff;
+    word-wrap: break-word;
+}
+
+/* Texto padrão (substituí classes instáveis por seletor global) */
+p, span, label {
+    color: #e0e0e0 !important;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: #ffffff !important;
+}
+
+/* Título principal */
+.titulo-principal {
+    text-align: center;
+    font-size: clamp(24px, 4vw, 40px); /* Responsivo */
+    font-weight: bold;
+    color: #2E8B57;
+    margin-bottom: 10px;
+}
+
+/* Responsividade extra */
+@media (max-width: 768px) {
+    .block-container {
+        padding: 1rem;
+    }
+    .titulo-principal {
+        font-size: 28px;
+    }
+}
