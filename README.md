@@ -55,20 +55,8 @@ Solução empresarial de **Business Intelligence** para análise de performance 
 - Processa **+10.000 transações** em tempo real  
 - Geração de **insights estratégicos** instantâneos  
 - Redução de **-40% no tempo de relatórios**  
-- **+25% eficiência** na análise de desempenho  
-
----
-
-## 🌐 Preview & Acesso Online  
-
-<p align="center">
-  <img src="dashboardPreview.png" alt="Dashboard em Produção" width="80%" style="border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.25);">
-</p>  
-
-<p align="center">
-  <sub><b>📊 Preview do Dashboard</b> — versão em produção disponível no link acima</sub>
-</p>  
-
+- **+25% eficiência** na análise de desempenho
+- 
 ---
 
 ## 🏆 Excelência Técnica  
